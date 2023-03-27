@@ -19,7 +19,7 @@ const plainAxiosInstance = axios.create({
 })
 
 securedAxiosInstance.interceptors.request.use(config => {
-  const method = config.mehthod.toUpperCase();
+  const method = config.mehthod.toUpperCase()
   if (method !== 'OPTIONS' && method !== 'GET') {
     config.headers = {
       ...config.headers,
