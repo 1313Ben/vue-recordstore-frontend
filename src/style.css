@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.label {
-  @apply block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2;
-}
